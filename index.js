@@ -37,7 +37,6 @@ function nameofpeopleincludes() {
 
 
   // 5. Get an array of names of people whose name includes 'a' or 'A'
-
   function nameincludesWithA() {
     return everyone().filter(name => name.toLowerCase().includes('a'));
   }
